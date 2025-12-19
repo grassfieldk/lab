@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Bun: Run Current File",
+      "type": "pwa-node",
+      "request": "launch",
+      "program": "${file}",
+      "runtimeExecutable": "/home/grassfield/.bun/bin/bun",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
