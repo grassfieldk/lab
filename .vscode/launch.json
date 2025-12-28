@@ -3,10 +3,10 @@
   "configurations": [
     {
       "name": "Bun: Run Current File",
-      "type": "pwa-node",
+      "type": "node",
       "request": "launch",
       "program": "${file}",
-      "runtimeExecutable": "/home/grassfield/.bun/bin/bun",
+      "runtimeExecutable": "bun",
       "skipFiles": [
         "<node_internals>/**"
       ],
