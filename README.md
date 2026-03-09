@@ -1,5 +1,8 @@
 # Lab
 
+思いついたプログラムをまとめていくためのリポジトリ
+
+
 ## Getting Started
 
 To install dependencies:
