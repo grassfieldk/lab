@@ -1,16 +1,28 @@
 {
   "name": "lab",
-  "module": "src/index.ts",
   "type": "module",
   "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5",
+    "vite": "^5.0.0"
   },
   "dependencies": {
-    "@biomejs/biome": "^2.3.10",
-    "cli-table3": "^0.6.5"
+    "@mantine/core": "^7.3.0",
+    "@mantine/hooks": "^7.3.0",
+    "@phosphor-icons/react": "^2.0.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
   }
 }

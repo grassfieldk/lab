@@ -1,0 +1,33 @@
+.navbar {
+  background: var(--mantine-color-dark-7);
+}
+
+.navLink {
+  display: block;
+  padding: 0.75rem;
+  border-radius: var(--mantine-radius-md);
+  text-decoration: none;
+  color: var(--mantine-color-gray-1);
+  font-size: 0.9rem;
+  transition: all 200ms ease;
+}
+
+.navLink:hover {
+  background: var(--mantine-color-dark-5);
+  color: var(--mantine-color-blue-4);
+}
+
+@media (prefers-color-scheme: light) {
+  .navbar {
+    background: var(--mantine-color-gray-1);
+  }
+
+  .navLink {
+    color: var(--mantine-color-gray-9);
+  }
+
+  .navLink:hover {
+    background: var(--mantine-color-gray-2);
+    color: var(--mantine-primary-color);
+  }
+}
